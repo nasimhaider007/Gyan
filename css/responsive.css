@@ -1,0 +1,142 @@
+@media (min-width:320px) and (max-width:575px) {
+    .title p {
+        padding: 0;
+    }
+
+    header p {
+        display: block;
+        text-align: center;
+    }
+
+    header .reg {
+        text-align: center;
+    }
+
+    nav button i {
+        color: #2d3e50;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    /*
+    nav{
+        position: absolute !important;
+        z-index: 9999;
+        width: 100%;
+        background: #fff;
+    }
+*/
+
+    nav ul {
+        background: #2d3e50;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    nav ul li {
+        padding-top: 0;
+    }
+
+    nav ul li a {
+        color: white;
+    }
+
+    nav .button {
+        background: #2d3e50;
+        padding-bottom: 20px;
+    }
+
+    nav .button a {
+        margin-top: 0;
+    }
+
+    nav .navbar-toggler:focus {
+        box-shadow: 0 0 0 0rem;
+    }
+
+    #banner-part .banner .overlay {
+        padding-bottom: 390px;
+        padding-top: 30px;
+    }
+
+    #banner-part .banner-slider h2 {
+        font-size: 30px;
+    }
+
+    #banner-part .banner-slider h1 {
+        font-size: 42px;
+    }
+
+    #banner-part .banner .overlay p {
+        width: auto;
+        padding-bottom: 30px;
+    }
+
+    #banner-part .banner .overlay a {
+        font-size: 16px;
+        padding: 13px 12px;
+    }
+
+    #banner-part .slick-dots {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: 0 !important;
+    }
+
+    #banner-part .slick-dots li {
+        display: inline-block;
+    }
+
+    #banner-part .slick-dots li button {
+        font-size: 0;
+        background: transparent;
+        border: 1px solid #fbaa33;
+        border-radius: 50%;
+        margin: 0 10px;
+        width: 10px;
+        height: 10px;
+    }
+
+    #banner-part .slick-dots .slick-active button {
+        background: #fbaa33;
+    }
+
+    #banner-bottom .item {
+        transform: translateY(0);
+    }
+
+    #banner-bottom {
+        margin: 50px 0;
+    }
+ 
+    #about-part .about-text p{
+        padding-top: 0;
+    }
+
+    #about-part .button  a{
+        margin-right: 2px;
+        margin-top: 2px;
+    }
+    course-part course-slider{
+        margin-top: 20px;
+    }
+    #about-part .slick-dots li {
+        display: inline-block;
+    }
+
+    #about-part .slick-dots li button {
+        font-size: 0;
+        background: transparent;
+        border: 1px solid #fbaa33;
+        border-radius: 50%;
+        margin: 0 10px;
+        width: 10px;
+        height: 10px;
+    }
+
+
+
+
+}
